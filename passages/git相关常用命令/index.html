@@ -225,29 +225,60 @@
 
   <div class="article-content">
     <div class="markdown-body">
-      <h2 id="查看相关"><a href="#查看相关" class="headerlink" title="查看相关"></a>查看相关</h2><p>查看当前分支有哪些修改：git status</p>
-<p>显示当前分支的版本历史：git log</p>
-<p>查看当前没有add的内容：git diff</p>
-<p>查看已经add但是没有commit的内容： git diff –cache</p>
-<p>显示commit历史，以及每次commit发生变更的文件：git log –stat</p>
-<h2 id="同步相关"><a href="#同步相关" class="headerlink" title="同步相关"></a>同步相关</h2><p>把远程库的代码拉到本地库并不更新：git fetch</p>
-<p>拉取远程代码：git pull  (git pull == git fetch + git merge)</p>
-<p>删除不存在的远程跟踪分支: git fetch -p</p>
-<p>同步主分支：git pull origin master</p>
-<h2 id="提交相关"><a href="#提交相关" class="headerlink" title="提交相关"></a>提交相关</h2><p>初始化git仓库：git init</p>
-<p>添加所有文件到暂存区：git add .</p>
-<p>提交暂存区到本地仓库区：git commit -m “注释语句”</p>
-<p>讲本地仓库提交到远程仓库：git push</p>
-<h2 id="分支相关"><a href="#分支相关" class="headerlink" title="分支相关"></a>分支相关</h2><p>查看本地分支：git branch</p>
-<p>查看远程分支：git branch -r</p>
-<p>查看所有分支：git branch -a</p>
-<p>创建本地分支：git branch 分支名</p>
-<p>创建本地分支并立即切换到该分支：git checkout -b 分支名</p>
-<p>创建远程分支：git push origin 分支名</p>
-<p>强制删除本地分支：git branch -D 分支名</p>
-<p>删除远程分支：git push origin –delete 分支名</p>
-<p>切换分支：git checkout 分支名</p>
-<p>把指定分支上的修改同步到当前分支：git merge 分支名</p>
+      <h2 id="查看相关"><a href="#查看相关" class="headerlink" title="查看相关"></a>查看相关</h2><ul>
+<li><p>查看当前分支有哪些修改：git status</p>
+</li>
+<li><p>显示当前分支的版本历史：git log</p>
+</li>
+<li><p>查看当前没有add的内容：git diff</p>
+</li>
+<li><p>查看已经add但是没有commit的内容： git diff –cache</p>
+</li>
+<li><p>显示commit历史，以及每次commit发生变更的文件：git log –stat</p>
+</li>
+</ul>
+<h2 id="同步相关"><a href="#同步相关" class="headerlink" title="同步相关"></a>同步相关</h2><ul>
+<li><p>把远程库的代码拉到本地库并不更新：git fetch</p>
+</li>
+<li><p>拉取远程代码：git pull  (git pull == git fetch + git merge)</p>
+</li>
+<li><p>删除不存在的远程跟踪分支: git fetch -p</p>
+</li>
+<li><p>同步主分支：git pull origin master</p>
+</li>
+</ul>
+<h2 id="提交相关"><a href="#提交相关" class="headerlink" title="提交相关"></a>提交相关</h2><ul>
+<li><p>初始化git仓库：git init</p>
+</li>
+<li><p>添加所有文件到暂存区：git add .</p>
+</li>
+<li><p>提交暂存区到本地仓库区：git commit -m “注释语句”</p>
+</li>
+<li><p>讲本地仓库提交到远程仓库：git push</p>
+</li>
+</ul>
+<h2 id="分支相关"><a href="#分支相关" class="headerlink" title="分支相关"></a>分支相关</h2><ul>
+<li><p>查看本地分支：git branch</p>
+</li>
+<li><p>查看远程分支：git branch -r</p>
+</li>
+<li><p>查看所有分支：git branch -a</p>
+</li>
+<li><p>创建本地分支：git branch 分支名</p>
+</li>
+<li><p>创建本地分支并立即切换到该分支：git checkout -b 分支名</p>
+</li>
+<li><p>创建远程分支：git push origin 分支名</p>
+</li>
+<li><p>强制删除本地分支：git branch -D 分支名</p>
+</li>
+<li><p>删除远程分支：git push origin –delete 分支名</p>
+</li>
+<li><p>切换分支：git checkout 分支名</p>
+</li>
+<li><p>把指定分支上的修改同步到当前分支：git merge 分支名</p>
+</li>
+</ul>
 <p>把指定分支的某次commit合并到当前分支：git cherry-pick <commit id=""></commit></p>
 
     </div>
